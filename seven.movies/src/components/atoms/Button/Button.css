@@ -1,0 +1,26 @@
+:root{
+    --primary-color: #3675F4;
+    --white: #fff;
+}
+
+.button{
+    padding: 13px 132px;
+    border-radius: 10px;
+
+    
+    border: 1px solid transparent;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}   
+
+.type-primary{
+    background: var(--primary-color);
+    color: var(--white);
+}
+
+.type-secondary{
+    background: transparent;
+    color: var(--primary-color);
+}
