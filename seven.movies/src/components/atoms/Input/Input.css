@@ -1,0 +1,59 @@
+.form-group{
+    padding: 15px 0 0;
+    margin-top: 10px;
+    position: relative;
+}
+
+.input{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 15px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid var(--dark-gray);
+    outline: 0;
+    padding: 5px 0;
+    transition: .2s ease;
+}
+
+.label{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 15px;
+    transition: .2s ease;
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.input::placeholder {
+    color: transparent;
+}
+
+.input:placeholder-shown ~ .label{
+    font-size: 20px;
+    top: 15px;
+    color: var(--dark-gray);
+}
+
+.input:focus{
+    border-color: var(--blue);
+}
+
+.input:focus ~ .label{
+    font-size: 15px;
+    top: 0;
+    color: var(--blue);
+}
+
+.form-group.size-sm {
+    width: 200px;
+}
+
+.form-group.size-md {
+    width: 400px;
+}
+
+.form-group.size-xl {
+    width: 600px;
+}

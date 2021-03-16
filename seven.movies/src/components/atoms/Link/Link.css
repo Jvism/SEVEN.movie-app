@@ -1,0 +1,22 @@
+.link{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    
+    color: var(--blue);
+
+    text-decoration: none;
+
+}
+
+.link.size-sm{
+    font-size: 15px;
+}
+
+.link.size-md{
+    font-size: 20px;
+}
+
+.link.size-xl{
+    font-size: 25px;
+}

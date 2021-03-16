@@ -1,0 +1,24 @@
+.heading{
+    font-family: Montserrat;
+    font-weight: 600;
+}
+
+.heading.type-primary{
+    color: var(--dark-gray);
+}
+
+.heading.type-secondary{
+    color: var(--white);
+}
+
+.heading.size-sm{
+    font-size: 40px;
+}
+
+.heading.size-md{
+    font-size: 50px;
+}
+
+.heading.size-xl{
+    font-size: 60px;
+}
