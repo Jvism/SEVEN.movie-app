@@ -1,0 +1,17 @@
+.paragraph{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.paragraph.size-sm{
+    width: 300px;
+}
+
+.paragraph.size-md{
+    width: 400px;
+}
+
+.paragraph.size-xl{
+    width: 500px;
+}
